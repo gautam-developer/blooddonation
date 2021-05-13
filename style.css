@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+}
+#body-header{
+    background-image: url(photo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    opacity: 0.8;
+    background-attachment: fixed;
+}
+#body-header ul{
+ text-align: center;
+}
+#body-header ul li{
+    display: inline-block;
+    margin-left:2rem;
+}
+#body-header ul li a{
+    color:white;
+    text-decoration: none;
+}
+#body-header ul li a:hover{
+    color:darkred;
+    text-decoration: underline;
+}
+#inner{
+    margin-top:30vh;
+    text-align: center;
+}
+#inner h1{
+    font-size:3rem;
+    color:white;
+    letter-spacing: .22rem;
+    margin-bottom:1vh;
+}
+#icons ul li a i{
+    border-radius: 50%;
+    margin-left:1rem;
+}
+#icons ul li a i:hover{
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+#image{
+    text-align: center;
+}
+#image img{
+    width:25%;
+    margin-top:-5vh;
+}
+p{
+    text-align: center;
+    margin-top:20vh;
+}
